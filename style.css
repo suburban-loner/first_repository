@@ -1,0 +1,45 @@
+body {
+    width:70%;
+    margin:auto;
+}
+#container {
+    display:grid;
+}
+header {
+    grid-template-columns: 1/8;
+    grid-row: 1;
+}
+h2 {
+    font-family: "Roboto", sans-serif;
+}
+p{
+    font-family: Arial, sans-serif;
+}
+section {
+    grid-template-columns: 1/7;
+    grid-row:2;
+}
+aside {
+    grid-column: 6/13;
+    grid-row:2;
+}
+
+#2nd_container{
+    display: grid;
+}
+#Bio {
+    grid-template-columns: 6/8;
+    grid-row: 2;
+}
+#Edu {
+    grid-template-columns: auto;
+    grid-row: 2;
+}
+#Exp {
+    grid-template-columns: auto;
+    grid-row: 2;
+}
+#Hob {
+    grid-template-columns: auto;
+    grid-row: 2;
+}
